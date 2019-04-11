@@ -21,7 +21,7 @@ body{
     min-height: 10vh;
     max-height: 10vh;
     box-sizing: border-box;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .main{
