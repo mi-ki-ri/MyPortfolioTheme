@@ -11,9 +11,15 @@
             </h2>
             {{ range .Pages.ByDate}}
                 <article>
-                    <a href="{{ .Permalink }}">
-                       {{ .Summary }} 
-                    </a>
+                    <h3>
+                        <a href="{{ .Permalink }}">
+                            {{.Title}}
+                        </a>
+                    </h3>
+                        {{ .Summary }} 
+                        <a href="{{ .Permalink }}">
+                           ..
+                        </a>
                 </article>
             {{ end }}
             {{end}}
