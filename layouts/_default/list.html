@@ -9,7 +9,7 @@
             <h2 class="sectionsTitle">
                 {{.Title}}
             </h2>
-            {{ range .Pages.ByDate}}
+            {{ range .Pages.ByDate.Reverse}}
                 <article>
                     <h3>
                         <a href="{{ .Permalink }}">
