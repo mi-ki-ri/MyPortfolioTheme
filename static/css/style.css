@@ -22,8 +22,6 @@ body{
     max-height: 10vh;
     box-sizing: border-box;
     overflow: scroll;
-    background-color: #0076d1;
-    color: #fff;
 }
 
 .main{
