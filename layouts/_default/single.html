@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="wrap">
+    <header class="header">
+        <h1>
+            {{ .Site.Title }}
+        </h1>
+    </header>
+    <main class="main">
+        <h2>
+            {{ .Title }}
+        </h2>
+        <article>
+            {{ .Content }}
+        </article>
+        <p>
+            <a href="{{ .Site.BaseURL }}">BACK</a>
+        </p>
+    </main>
+    <footer class="footer">
+        Copyright &copy; 2019- HOTTA Tatsuya All Rights Reserved.
+    </footer>
+</div>
+{{ end }}

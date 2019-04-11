@@ -1,0 +1,33 @@
+
+body{
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+}
+.wrap{
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.header,
+.footer{
+    height: 10vh;
+    min-height: 10vh;
+    max-height: 10vh;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.main{
+    height: 80vh;
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow: scroll;
+    box-sizing: border-box;
+}

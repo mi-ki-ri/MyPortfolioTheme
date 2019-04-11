@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="wrap">
+    <header class="header">
+        <h1>{{ .Site.Title }}</h1>
+    </header>  
+    
+        <main class="main">
+                {{ range .Sections }}
+            <h2 class="sectionsTitle">
+                {{.Title}}
+            </h2>
+            {{ range .Pages.ByDate}}
+                <article>
+                    <a href="{{ .Permalink }}">
+                       {{ .Summary }} 
+                    </a>
+                </article>
+            {{ end }}
+            {{end}}
+        </main>
+    
+    <footer class="footer">
+        Copyright &copy; 2019- HOTTA Tatsuya All Rights Reserved.
+    </footer>
+</div>
+
+{{ end }}
+
+
+
