@@ -32,6 +32,6 @@ body{
     box-sizing: border-box;
 }
 
-.main::-webkit-scrollbar{height:5px;}/*バーの太さ*/
-.main::-webkit-scrollbar-track{background: transparent;}/*バーの背景色*/
-.main::-webkit-scrollbar-thumb{background:#0076d1;}/*バーの色*/
+::-webkit-scrollbar{height:5px;}/*バーの太さ*/
+::-webkit-scrollbar-track{background: transparent;}/*バーの背景色*/
+::-webkit-scrollbar-thumb{background:#0076d1;}/*バーの色*/
